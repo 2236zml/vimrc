@@ -44,7 +44,7 @@ autocmd BufRead *.py map mm :call Py() <CR>
 "map mm :call Py() <cr>
 func! Py()
     exec "w"
-    exec "! python.exe %"
+    exec "! python %"
 endfunc
 
 
